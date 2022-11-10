@@ -1,0 +1,32 @@
+.measure-wrap {
+  position: absolute;
+  font-size: 12px;
+}
+.my-measure-icon-marker {
+  width: 12px;
+  height: 12px;
+  background: #1890ff;
+  border-radius: 100%;
+}
+.measure-value {
+  width: auto !important;
+  margin-top: 6px;
+  padding: 3px 8px;
+  white-space: nowrap;
+  background: #fff;
+  color: #1890ff;
+}
+.measure-end {
+  padding-right: 25px;
+}
+.measure-close {
+  position: absolute;
+  right: 5px;
+  bottom: 5px;
+  display: block;
+  width: 16px;
+  height: 16px;
+  background-image: url('../assets/imgs/del.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
